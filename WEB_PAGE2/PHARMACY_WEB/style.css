@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    box-shadow: none;
+    font-family: fantasy;
+}
+
+/* removing the default setting */
+a{
+    text-decoration: none;
+}
+ li{
+    list-style: none;
+ }
+
+ /* desing the bgc */
+
+body{
+    max-width: 1500px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+    background-position: 0%;
+    background-origin: padding-box;
+    background-image: url(ASSET/stethoscope.png);
+}
+
+/* desinging the button */
+button{
+    background: #0ad325;
+    border: none;
+    height: 77px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 10px 18px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* adding hover effects to buttons */
+button:hover 
+  {
+    background-color: #585c65;
+    cursor: pointer;
+    color: rgb(69, 137, 216);
+  }
+
+  /* desinging the nav section of our document. */
+  nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    padding: auto;
+    border-radius: 0%;
+  }
+
+  /* desinging the img of nav */
+  .nav-logo{
+    height: 70px;
+    width: auto;
+    margin: 50px 100px;
+    padding-top: 0%;
+  }
+
+  /* now I'm going to desing the nav-ul wala section. */
+
+  .nav-ul{
+    display: flex;
+    align-items: center;
+    margin-left: 270px;
+  }
+
+  .nav-ul li a {
+    color: #161616;
+    margin: 50px 50px;
+  }
+
+  /* desinging the home button on nav */
+  .home-li a:nth-child(1){
+    color: #348009;
+  }
+  /* main section desing  */
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+  }
+  
+  main section {
+    width: 50%;
+  }
+  /* desinging the left section */
+  .leftSection{
+    display: grid;
+    justify-content: space-between;
+  }
+  .topAngle{
+    height: 40px;
+    width: auto;
+    margin-inline-start: 100px;
+  }
+  .leftSection h1{
+    margin-left: 100px;
+    font-size: 79px;
+    font-weight: 100;
+  }
+  .leftSection p{
+    font-style: normal;
+    font-size: 18px;
+    color: #354261;
+    margin-left: 100px;
+    padding-top: 10px;
+  }
+   
+  .mouse{
+    margin-left: 800px;
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+  }
+  .bottomAngle {
+    margin-left: 800px;
+    padding-top: 30px;
+  }
+
+  /* desing the button to the correct place*/
+  button{
+    margin-left: 100px;
+  }
+
+  /* desinging the right section of main-sction  */
+  .rightSection{
+    display: flex;
+    overflow: hidden;
+  }
+  .greenBox,
+  .yellowBox {
+  position: absolute;
+  right: 0;
+  }
+
+ .greenBox {
+  width: 35%;
+  bottom: 30px;
+ }
+
+ .yellowBox {
+  width: 30%;
+  bottom: 50px;
+ }
+  .doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 89%;
+}
